@@ -1,5 +1,0 @@
- (test:text 'a'
-is›test:text 'a'
- test:text 'a'
-$(test:text 'a'
-is

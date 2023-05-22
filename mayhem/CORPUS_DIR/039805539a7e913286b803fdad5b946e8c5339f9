@@ -1,9 +1,0 @@
-MEAS:volt:DC? 
-M?
--MEAS:volt:DC?
-S vo-MEAS:volt:DC? 12,
-MEAS:volt:DC? 12,MEAS:volt:DC? 13,
-M?
--MEAS:volt:DC?
-So-MEAS:volt:DC? 1,
-MEAS:volt:DC? 52,

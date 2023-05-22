@@ -11,7 +11,8 @@ RUN CC=clang CXX=clang++ cmake ..
 RUN make
 #RUN ./fuzzparser ../CORPUS_DIR
 
-FROM --platform=linux/amd64 ubuntu:20.04
+FROM ubuntu:20.04 as package
 RUN apt-get update
-COPY --from=builder /repo/mayhem/build/fuzzparser /fuzzparser
+RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libreadline-dev
+COPY --from=builder /repo/mayhem/build/fuzzscpi-parser /fuzzscpi-parser
 COPY --from=builder /repo/mayhem/CORPUS_DIR /CORPUS_DIR

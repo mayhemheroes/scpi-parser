@@ -15,4 +15,4 @@ FROM ubuntu:20.04 as package
 RUN apt-get update
 RUN DEBIAN_FRONTEND=noninteractive apt-get install -y libreadline-dev
 COPY --from=builder /repo/mayhem/build/fuzzscpi-parser /fuzzscpi-parser
-COPY --from=builder /repo/mayhem/CORPUS_DIR /CORPUS_DIR
+COPY --from=builder /repo/mayhem/CORPUS_DIR /testsuite

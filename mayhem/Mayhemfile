@@ -1,8 +1,12 @@
 project: scpi-parser
 target: fuzzscpi-parser
 image: ghcr.io/johnyu763/fuzzscpi-parser:latest
-
+tasks:
+  - name: exploitability_factors
+  - name: behavior_testing
+  - name: regression_testing
+  - name: coverage_analysis
 cmds:
     - cmd: /fuzzscpi-parser
 testsuite:
-    - file:///CORPUS_DIR
+    - file:///testsuite

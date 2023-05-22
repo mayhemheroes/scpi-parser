@@ -13,4 +13,5 @@ RUN make
 
 FROM --platform=linux/amd64 ubuntu:20.04
 RUN apt-get update
-COPY --from=builder /fuzzparser /
+COPY --from=builder /repo/mayhem/build/fuzzparser /fuzzparser
+COPY --from=builder /repo/mayhem/CORPUS_DIR /CORPUS_DIR

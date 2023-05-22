@@ -1,0 +1,6 @@
+project: scpi-parser
+target: fuzzparser
+image: ghcr.io/johnyu763/fuzzscpi-parser:latest
+
+cmds:
+- cmd: /fuzzparser CORPUS_DIR 

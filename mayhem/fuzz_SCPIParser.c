@@ -25,9 +25,9 @@ scpi_result_t SCPI_Control(scpi_t * context, scpi_ctrl_name_t ctrl, scpi_reg_val
     (void) context;
 
     if (SCPI_CTRL_SRQ == ctrl) {
-        fprintf(stderr, "**SRQ: 0x%X (%d)\r\n", val, val);
+    //   fprintf(stderr, "**SRQ: 0x%X (%d)\r\n", val, val);
     } else {
-        fprintf(stderr, "**CTRL %02x: 0x%X (%d)\r\n", ctrl, val, val);
+    //   fprintf(stderr, "**CTRL %02x: 0x%X (%d)\r\n", ctrl, val, val);
     }
     return SCPI_RES_OK;
 }
@@ -35,7 +35,7 @@ scpi_result_t SCPI_Control(scpi_t * context, scpi_ctrl_name_t ctrl, scpi_reg_val
 scpi_result_t SCPI_Reset(scpi_t * context) {
     (void) context;
 
-    fprintf(stderr, "**Reset\r\n");
+    // fprintf(stderr, "**Reset\r\n");
     return SCPI_RES_OK;
 }
 

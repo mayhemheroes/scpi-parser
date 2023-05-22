@@ -1,5 +1,0 @@
-project: scpi-parser
-target: fuzzparser
-
-cmds:
-  - cmd: /fuzzparser

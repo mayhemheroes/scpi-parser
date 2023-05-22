@@ -1,0 +1,4 @@
+test:text 'a'
+!2test:text 'a'
+ C!2test:text 'a'
+

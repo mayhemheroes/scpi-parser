@@ -1,0 +1,4 @@
+MEAS:volt:DC? 12
+MR?MEAS:volt:DC? 1
+MEAS:volt:DC? 1C
+2,:v

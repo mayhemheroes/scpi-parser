@@ -1,0 +1,4 @@
+TEST:CHANnellist (@3!2:3!3)
+A6)TEST:CHANnellist (@6!2:3!3,!TT:C)
+TEST:CHANnellist (@1!2:3!2,5A6)
+TEST:CHANnellist (@5!2:3!3,5)

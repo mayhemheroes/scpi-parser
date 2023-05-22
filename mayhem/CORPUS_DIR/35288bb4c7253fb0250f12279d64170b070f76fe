@@ -1,0 +1,4 @@
+MEAS:volt:AC? 1,	2C
+P
+MEAS:volt:AC? 0,2C
+MEAS:volt:AC? 1,1C

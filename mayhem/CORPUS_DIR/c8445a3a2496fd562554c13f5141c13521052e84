@@ -1,0 +1,9 @@
+lCR
+MEAS:volt:AC? 9,2C
+P2S“R
+MEAS:volt:AC? 1,2C
+SR
+MEAS:volt:AC? 1,2C
+`PE:
+MEAS:volt:AC? 1,2C
+:d c
